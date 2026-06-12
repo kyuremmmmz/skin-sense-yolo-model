@@ -1,0 +1,33 @@
+description: Ultralytics YOLO11n-cls model trained on C:\Users\Christian\Downloads\dataset\IMG_CLASSES_SPLIT_V2
+author: Ultralytics
+date: '2026-06-12T12:10:13.183974'
+version: 8.4.63
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 1
+task: classify
+batch: 1
+imgsz:
+- 224
+- 224
+names:
+  0: 1. Eczema 1677
+  1: 10. Warts Molluscum and other Viral Infections - 2103
+  2: 2. Melanoma 15.75k
+  3: 3. Atopic Dermatitis - 1.25k
+  4: 4. Basal Cell Carcinoma (BCC) 3323
+  5: 5. Melanocytic Nevi (NV) - 7970
+  6: 6. Benign Keratosis-like Lesions (BKL) 2624
+  7: 7. Psoriasis pictures Lichen Planus and related diseases - 2k
+  8: 8. Seborrheic Keratoses and other Benign Tumors - 1.8k
+  9: 9. Tinea Ringworm Candidiasis and other Fungal Infections - 1.7k
+  10: acne
+args:
+  data: null
+  batch: 1
+  fraction: 1.0
+  half: false
+  int8: false
+  nms: false
+channels: 3
+end2end: false
